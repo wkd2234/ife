@@ -1,0 +1,26 @@
+.gray {
+    position: absolute;
+    height: 200px;
+    width:400px;
+    background: #ccc;
+    left:50%;
+    top:50%;
+    margin-left:-200px;
+    margin-top: -100px;
+    overflow: hidden;
+}
+.circle {
+    position: absolute;
+    width:100px;
+    height:100px;
+    background: #fc0;
+    border-radius: 50px;
+}
+.a {
+    left:-50px;
+    top:-50px;
+}
+.b {
+    right:-50px;
+    bottom:-50px;
+}

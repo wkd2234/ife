@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>ife-task21</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            
+            .container1 {
+                float: left;
+                width: 400px;
+                height: 1000px;
+                
+            }
+            .container2 {
+                position: absolute;
+                left: 500px;
+                width: 400px;
+                height: 1000px;
+            }
+            
+            #tag {
+                width: 300px;
+                height:100px;
+                border: 1px solid #00ff00;
+                font-size: 30px;
+            }
+            #tagdisplay, 
+            #hobbydisplay {
+                position: relative;
+                display: block;
+                border: 2px #000 solid;
+                width: 260px;
+                height: 100px;
+                border-radius: 2px;
+            }
+            
+            
+            #hobby {
+                width: 400px;
+                height: 100px;
+            }
+
+            #tagdisplay li,
+            #hobbydisplay li {
+                position: relative;
+                list-style: none;
+                float: left;
+                width: 50px;
+                height: 30px;
+                margin: 30px 10px 0;
+                color: #fff;
+                background: blue;
+                font-weight: bold;
+                transition: all 1s ease-in-out;
+            }
+            #tagdisplay li.mouseover {
+                width: 70px;
+                background: #ff0000;
+            }
+        </style>
+        <script type="text/javascript" src="task21.js"></script>
+    </head>
+    <body>
+        <div class="container1">
+            <input id="tag" type="text" value="">
+            <ul id="tagdisplay">
+                <li>ab</li>
+            </ul>
+            <input id="reset1" type="button" value="chonz">
+        </div>
+        <div class="container2">
+            <input id="hobby" type="text" value="">
+            <ul id="hobbydisplay">
+                <li>a</li>
+            </ul>
+            <input id="reset2" type="button" value="cz">
+            <input id="btn" type="button" value="qr">
+        </div>
+
+
+        
+        
+    </body>
+</html>

@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 100%;
+    height: auto;
+} 
+#plant {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    border: 1px solid #000;
+}
+#contro {
+    position: absolute;
+    width: 29%;
+    height: 49%;
+    left: 0;
+    bottom: 0;
+    border: 1px solid #000;
+}
+#display {
+    position: absolute;
+    width: 29%;
+    height: 49%;
+    left: 0;
+    top: 0;
+    border: 1px solid #000;
+}
+#display-text {
+    width: 300px;
+    height: 220px;
+}
+.cirle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px dashed #000;
+    border-radius: 50%;
+}
+#c1 {
+    width: 600px;
+    height: 600px;
+    margin-left: -300px;
+    margin-top: -300px; 
+}
+#c2 {
+    width: 500px;
+    height: 500px;
+    margin-left: -250px;
+    margin-top: -250px;
+}
+#c3 {
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+#c4 {
+    width: 300px;
+    height: 300px;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+#earth {
+    width: 160px;
+    height: 160px;
+    margin-left: -80px;
+    margin-top: -80px;
+    background: blue;
+    border: none;
+}
+.ship {
+    background-color: red;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+#ship0 {
+    margin-top:-312px;
+    margin-left: -50px;
+    -webkit-transform-origin: center 312px;
+    -moz-transform-origin: center 312px;
+    -ms-transform-origin: center 312px;
+    -o-transform-origin: center 312px;
+    transform-origin: center 312px;
+}
+#ship1 {
+    margin-top:-262px;
+    margin-left: -50px;
+    -webkit-transform-origin: center 262px;
+    -moz-transform-origin: center 262px;
+    -ms-transform-origin: center 262px;
+    -o-transform-origin: center 262px;
+    transform-origin: center 262px;
+}
+#ship2 {
+    margin-top:-212px;
+    margin-left: -50px;
+    -webkit-transform-origin: center 212px;
+    -moz-transform-origin: center 212px;
+    -ms-transform-origin: center 212px;
+    -o-transform-origin: center 212px;
+    transform-origin: center 212px;
+}
+#ship3 {
+    margin-top:-162px;
+    margin-left: -50px;
+    -webkit-transform-origin: center 162px;
+    -moz-transform-origin: center 162px;
+    -ms-transform-origin: center 162px;
+    -o-transform-origin: center 162px;
+    transform-origin: center 162px;
+}

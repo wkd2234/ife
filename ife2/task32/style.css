@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    position: relative;
+    float: left;
+    width: 39px;
+    height: 39px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.mover {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #0000ff;
+    transform: rotate(0deg);
+    transition: all 1s ease;
+    -webit-transition: all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    
+}
+.mover:after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 40px;
+    background: #ff0000;
+}
+#container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+}
+#in {
+    background: #000;
+    color: darkgreen;
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    font-family: "Microsoft Yahei";
+}
